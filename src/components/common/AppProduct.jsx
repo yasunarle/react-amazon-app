@@ -31,7 +31,7 @@ function AppProduct({ id, title, image, price, rating }) {
           {Array(rating)
             .fill()
             .map((_) => (
-              <p>⭝</p>
+              <p>⭐</p>
             ))}
         </div>
       </div>

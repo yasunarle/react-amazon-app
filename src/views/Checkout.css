@@ -1,0 +1,11 @@
+.checkout__ad {
+  width: 100%;
+  text-align: center;
+}
+.checkout__ad > img {
+  max-width: 400px;
+}
+
+.checkout__title {
+  margin: 20px 0;
+}
