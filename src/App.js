@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import "./App.css"
 // Components
 import TheHeader from "./components/common/TheHeader"
+// Views
+import Home from "./views/Home"
 
 function App() {
   return (
@@ -12,7 +14,7 @@ function App() {
         <TheHeader />
         <Switch>
           <Route path="/">
-            <h1>checkout</h1>
+            <Home />
           </Route>
         </Switch>
       </div>
